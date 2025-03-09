@@ -1,0 +1,27 @@
+{
+  "name": "dashifen/data-transfer-object",
+  "description": "An object that exists to transfer data.",
+  "minimum-stability": "stable",
+  "license": "WTFPL",
+  "type": "library",
+  "authors": [
+    {
+      "name": "David Dashifen Kees",
+      "email": "dashifen@dashifen.com",
+      "role": "developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Dashifen\\DTO\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=8.4",
+    "dashifen/debugging": "^1"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}

@@ -17,8 +17,7 @@
     }
   },
   "require": {
-    "php": ">=8.4",
-    "dashifen/debugging": "^1"
+    "php": ">=8.4"
   },
   "config": {
     "optimize-autoloader": true,

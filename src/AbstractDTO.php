@@ -22,8 +22,8 @@ abstract class AbstractDTO implements JsonSerializable
     // before we loop over our $data and set properties, we can confirm if any
     // requirements will be unmet.  array_diff returns a list of values in the
     // first array that are not found in the second.  so, if we have required
-    // properties that are not specified in $data, they will be unmet after our
-    // loop.
+    // properties that are not specified in $data, we know they'll be unmet
+    // after the loop below.
     
     $unmet = array_diff($this->requirements, array_keys($data));
     

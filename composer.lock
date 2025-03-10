@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f265a79df21d29b375c642bb7b21f030",
+    "content-hash": "b352225dfdff9d25f35eef038f0a84e9",
     "packages": [
         {
             "name": "dashifen/debugging",
@@ -46,6 +46,48 @@
                 "source": "https://github.com/dashifen/debugging/tree/1.0.2"
             },
             "time": "2024-01-08T14:24:44+00:00"
+        },
+        {
+            "name": "dashifen/exception",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dashifen/exception.git",
+                "reference": "b57568029d4a99a4c875d6f96220739ccda8eec1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dashifen/exception/zipball/b57568029d4a99a4c875d6f96220739ccda8eec1",
+                "reference": "b57568029d4a99a4c875d6f96220739ccda8eec1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dashifen\\Exception\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Dashifen Kees",
+                    "email": "dashifen@dashifen.com",
+                    "homepage": "https://dashifen.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "a base class for exceptions in Dashifen's other work",
+            "support": {
+                "issues": "https://github.com/dashifen/exception/issues",
+                "source": "https://github.com/dashifen/exception/tree/1.2.1"
+            },
+            "time": "2025-01-02T17:24:05+00:00"
         }
     ],
     "packages-dev": [],

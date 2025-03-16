@@ -15,9 +15,9 @@ class DTO extends AbstractDTO
    * properties match array indices within those data and setting their values
    * to those found in the array.
    *
-   * @param array $data
+   * @param array|object $data
    */
-  public function __construct(array $data)
+  public function __construct(array|object $data)
   {
     try {
       parent::__construct($data);

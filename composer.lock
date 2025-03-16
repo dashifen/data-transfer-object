@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b352225dfdff9d25f35eef038f0a84e9",
+    "content-hash": "addbafcf15abf4062c819d73244d3cb7",
     "packages": [
         {
             "name": "dashifen/debugging",

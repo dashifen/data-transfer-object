@@ -13,11 +13,14 @@ abstract class AbstractDTO implements JsonSerializable
    * properties match array indices within those data and setting their values
    * to those found in the array.
    *
-   * @param array $data
+   * @param array|object $data
    *
    * @throws DTOException
    */
-  public function __construct(array $data) {
+  public function __construct(array|object $data) {
+    if (!is_array($data)) {
+      $data = (array) $data;
+    }
     
     // before we loop over our $data and set properties, we can confirm if any
     // requirements will be unmet.  array_diff returns a list of values in the
